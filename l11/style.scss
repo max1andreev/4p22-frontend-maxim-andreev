@@ -1,0 +1,12 @@
+.common-section{
+    padding: 20px;
+    border: 1px solid gray;
+}
+&__heading {
+color: red;
+}
+&__paragraph{
+    &_green{
+        color: green;
+    }
+ 
