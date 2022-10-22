@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>EntryField</title>
+</head>
+<body>
+    
+    
+    
+
+<form class="field-form" action="">
+    <h2 class="field-form__article">Анкета</h2>
+    
+    <label class="field-form__name" for="name">Имя</label>
+    <input class="field-form__input" id="Name" type="text" name="name" placeholder="Введите имя">
+    
+    <label class="field-form__name" for="surname">Фамилия</label>
+    <input class="field-form__input" id="Surname" type="text" name="surname" placeholder="Введите фамилию">
+    
+    <label class="field-form__name" for="email">Почта</label>
+    <input class="field-form__input" id="Email" type="email" name="email" placeholder="Etoprimer@gmail.com">
+    
+
+    
+
+    <label class="field-form__name" for="language">Язык</label>
+    <select class="field-form__input" name="language" id="language">
+        <option value="RU">Русский</option>
+        <option value="EN">Английский</option>
+        <option value="GR">Немецкий</option>
+        <option value="CN">Китайский</option>
+    
+    </select>
+    <label class="field-form__name" for="textarea">Комментарий</label>
+        <textarea class="field-form__input" name="textarea" id="textarea" cols="30" rows="2" placeholder="Введите комментарий"></textarea>
+
+    <div>
+        <input class="field-form-file__input" type="file">
+    </div>
+
+        <button class="field-form__bottom">Войти</button>
+    
+    <label class="field-form__name" for="checkbox-1">
+        <input class="field-form__chekbox" id="checkbox-1" type="checkbox" name="agree" value="right">
+        Согласие на обработку данных
+    </label>
+    
+</form>
+</body>
+</html>
