@@ -35,14 +35,12 @@ body{
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    
 }
 .style-header__registration{
     margin-right: 28px;
     font-weight: 700;
     font-size: 24px;
     text-decoration: none;
-
 }
 .style-header__enter{
     font-weight: 700;
@@ -270,11 +268,6 @@ body{
 
         font-size: 20px;
     }
-    .style-header__image{
-        
-    }
+    
 }
 
-@media screen and (min-width: 769px){
-
-}
