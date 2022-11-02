@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc">
+        <h2 class="calc__content">Калькулятор</h2>
+        <label class="calc__name" for="first-number">Первое число</label>
+        <input type="text" id="first-number" name="first-number" placeholder="Первое число">
+        <label class="calc__name" for="operation">Знак операции</label>
+        <input type="text" id="operation" name="operation" placeholder="Введите знак операции (+,-,/,*)">
+        <label class="calc__name" for="second-number">Второе число</label>
+        <input type="text" id="second-number" name="second-number" placeholder="Второе число">
+        <button class="calc__bottom" id="submit">Вычисление</button>
+        <input type="text" id="output" class="calc__output">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
