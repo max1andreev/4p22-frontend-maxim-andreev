@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,italic,500,700,900," rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
+
+    <title>Регистрация</title>
+</head>
+
+<body>
+
+    <header class="style-header">
+        <div class="style-header__logo">
+            <a href="1280px-IU_logo 1.png">
+                <img class="style-header__image" src="1280px-IU_logo 1.png" alt="logotype">
+            </a>
+            <div class="style-header__innopolis"> PCS Frontend
+
+            </div>
+        </div>
+        <div class="style-header__link">
+            <a class="style-header__registration" href="index.html">Регистрация</a>
+            <a class="style-header__enter" href="login.html">Вход</a>
+
+        </div>
+    </header>
+
+    <form class="field-form" action="">
+        <h2 class="field-form__article">Регистрация</h2>
+
+        <div class="field-form__block" id="email">
+            
+            <div class="field-form__label">
+                <label class="field-form__name required" for="email">Email</label>
+                <span class="err-msg">Email введён некорректно</span>
+            </div>
+            <input class="field-form__input" id="Email" type="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="field-form__block" id="password">
+            <div class="field-form__label">
+                <label class="field-form__name required" for="password">Пароль</label>
+                <span class="err-msg">Поле обязательно для заполнения</span>
+            </div>
+            <input class="field-form__input" type="text" name="password" placeholder="Введите пароль">
+        </div>
+
+        <div class="field-form__block" id="password-confirm">
+            <div class="field-form__label">
+                <label class="field-form__name required" for="check-password">Подтверждение пароля</label>
+                <span class="err-msg">Пароли не совпадают</span>
+            </div>
+            <input class="field-form__input" type="text" name="check-password" placeholder="Подтвердите пароль">
+        </div>
+
+        <div>
+            <legend class="field-form__name">Пол</legend>
+
+            <div class="field-form__radio-button">
+                <div></div>
+                <input type="radio" name="gender" id="man" value="MAN">
+
+                <label for="man">Мужчина</label>
+            </div>
+            <div class="field-form__radio-button">
+                <div></div>
+                <input type="radio" name="gender" id="woman" value="WOMAN">
+
+                <label for="woman">Женщина</label>
+            </div>
+
+        </div>
+
+
+        </select>
+        <label class="field-form__name" for="textarea">О себе</label>
+        <div class="field-form__block">
+            <textarea class="field-form__input" name="textarea" id="textarea" rows="7"
+                placeholder="Расскажите о себе..."></textarea>
+        </div>
+        <div>
+            <div class="field-form__checkmark">
+                <div></div>
+
+                <input class="field-form__chekbox" id="checkbox-1" type="checkbox" name="agree" value="right">
+                <label class="field-form__name" for="checkbox-1">
+                    Согласие на обработку данных
+                </label>
+
+            </div>
+        </div>
+        <div class="field-form__blockForButton">
+            <button class="field-form__bottom">Регистрация</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
